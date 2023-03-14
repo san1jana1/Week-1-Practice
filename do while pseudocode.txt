@@ -1,0 +1,125 @@
+
+//using do while to print 1 to 10 no.
+
+begin
+    numeric num=1
+    do{
+      print(num)
+      num++
+      }
+      while(num<=10)
+end
+
+
+//even numbers 1 to n
+ 
+
+begin
+    numeric num=1,n
+    print("enter the value of n")
+    input n
+    do{
+      if(num%2==0){
+      print(num)
+      }
+      num++
+      }
+       while (num<=n)
+end
+
+//print numbers from 10 to 1
+
+begin
+    numeric num=10
+    do{
+      print(num)
+      num--
+     }
+     while(num>=1 && num<=10);
+end
+
+
+//to print 1 to n numbers
+
+begin
+    numeric num=1,n
+    print("enter the value of n")
+    input n
+    do{
+      print(num)
+      num++
+      }
+      while(num<=n
+end
+
+
+
+//to print odd numbers from 1 to n
+
+begin
+    numeric num=1,n
+    print("enter the value of n")
+    input n
+    do{
+      if(num%2!=0){
+      print(num)
+      }
+      num++
+      }
+     while(num<=n
+end
+
+
+//WAP to sum the number upto n
+
+begin
+    numeric num=1, n, sum=0
+    print("enter the value for n")
+    input n
+    do{
+      sum=sum+num
+      num++
+      }
+       while(num<=n);
+end
+      
+
+//WAP to sum of even numbers and odd numbers
+
+
+begin
+    numeric num=1,n, sum1=0, sum2=0
+    print(enter the n value")
+    input n
+    do{
+       if(num%2==0){
+         sum1=sum1+num
+         }
+       else{
+         sum2=sum2+num
+         }
+          
+        num++
+       }
+       
+      while(num<=n);
+
+      print("the even number sum is:", sum1)   
+      print("the odd number sum is:", sum2)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
